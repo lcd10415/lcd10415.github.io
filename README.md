@@ -1,15 +1,19 @@
 # lcd10415.github.io
 
-Developer GitHub Pages root.
+Developer GitHub Pages root — multi-app hub.
 
 ## Live URLs
 
-- **Marketing (SimpleLedger / 简单记账):** https://lcd10415.github.io/
-- Privacy Policy: https://lcd10415.github.io/simpleledger-privacy/
-- Support: https://lcd10415.github.io/simpleledger-privacy/support.html
+- Hub: https://lcd10415.github.io/
+- **SimpleLedger marketing:** https://lcd10415.github.io/simpleledger/
+- SimpleLedger privacy: https://lcd10415.github.io/simpleledger-privacy/
+- SimpleLedger support: https://lcd10415.github.io/simpleledger-privacy/support.html
+- LingoMind: https://lcd10415.github.io/lingomind/
 - AdMob `app-ads.txt`: https://lcd10415.github.io/app-ads.txt
 
-## Notes
+## Layout
 
-- Root `index.html` is the SimpleLedger product site (features + screenshots).
-- Legacy LingoMind stub: `/lingomind/`
+- `/` — app directory
+- `/simpleledger/` — SimpleLedger product site (features + screenshots + i18n)
+- `/lingomind/` — LingoMind stub
+- `app-ads.txt` stays at domain root (AdMob requirement)
